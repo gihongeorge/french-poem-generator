@@ -17,14 +17,21 @@
         </header>
 
         <main>
+            <div class="form-container">
             <form id="poem-generator-form">
-                <input type="text" placeholder="Enter the topic of the French poem" autofocus required
-                    autocomplete="off" class="instructions" id="user-instructions" />
+                <input type="text"
+                 placeholder="Enter the topic of the French poem" autofocus required
+                    autocomplete="off"
+                     class="instructions"
+                      id="user-instructions" />
                 <input type="submit" class="submit-button" />
             </form>
-            <div class="poem" id="poem"></div>
+
+            <div class="hint"> i.e: flower, Paris or cheese </div>
+        </div>
+            <div class="poem hidden blink" id="poem"></div>
         </main>
-    </div>
+
 
     <footer>This AI project was coded <a href="https://github.com/gihongeorge" target="_blank"> by Gihon George </a> and
         is
