@@ -18,6 +18,7 @@ function generatePoem(event) {
 
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove ("hidden");
+  
   poemElement.innerHTML = `<div class="generating"> Generating a french poem about ${instructionsInput.value}</div>`;
 
 

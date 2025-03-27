@@ -89,14 +89,11 @@ color: #272044;
     padding: 14px 24px;
 }
 
-.hidden {
-    display: none;
-}
+
 
 .poem {
     background-color: #fff;
     font-size: 16px;
-    display:none;
     padding: 20px;
     line-height: 2;
     border-left: 3px solid #88fdf1;
